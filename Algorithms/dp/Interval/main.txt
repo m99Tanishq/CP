@@ -1,0 +1,65 @@
+1. Sorted Partition(left and right)
+
+ans = min/max/count -> leftcall + (value) +  rightcall 
+
+https://leetcode.com/problems/guess-number-higher-or-lower-ii
+https://leetcode.com/problems/minimum-cost-to-cut-a-stick
+
+
+2a. Front Partition(Linear DP)
+
+ans = min/max/count -> rightcall
+
+https://leetcode.com/problems/arithmetic-slices/description/
+
+2b. Front Partition and MIN-MAX 
+
+ans = max(value - rightcall)
+
+https://leetcode.com/problems/predict-the-winner/description/
+https://leetcode.com/problems/stone-game/description/
+https://leetcode.com/problems/stone-game-vii/description/
+
+2c. Prev(-1) and Condition
+https://leetcode.com/problems/valid-permutations-for-di-sequence/description/
+
+3. MCM Partition
+
+2conditions -> (i+1 / < j) anyone
+
+ans = min/max/count -> leftcall + (value) + rightcall
+
+https://leetcode.com/problems/minimum-score-triangulation-of-polygon/description/
+
+4. Knapsack + Front Partition
+
+op1 -> not take
+op2 -> take
+
+https://leetcode.com/problems/last-stone-weight-ii/description/
+
+5. IMP Partition + Reverse Travesal
+
+i+1, j-1 -> functional call
+i,j  - > value
+
+https://leetcode.com/problems/burst-balloons/description/
+
+6. IMP++ Partition + Contionus Value Elimination with condition check
+
+if(! == !) -> Partition
+
+Knapsack type -> https://leetcode.com/problems/remove-boxes/description/
+https://leetcode.com/problems/strange-printer/description/
+
+7. PreSum + Partition
+
+a. -> Subarray 
+
+ans = min/max/count -> leftcall + rightcall 
+
+if(! == !) ans += (value) 
+
+https://leetcode.com/problems/minimum-cost-to-merge-stones/description/
+https://leetcode.com/problems/stone-game-v/description/
+https://leetcode.com/problems/allocate-mailboxes/description -> presum(**Median Trick)
