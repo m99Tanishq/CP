@@ -1,0 +1,21 @@
+1. Simple Take Non Take with Conditions
+
+https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+https://leetcode.com/problems/reducing-dishes/description/
+https://leetcode.com/problems/ones-and-zeroes/description/
+https://leetcode.com/problems/target-sum/description/
+https://leetcode.com/problems/shopping-offers/
+https://leetcode.com/problems/2-keys-keyboard/description/
+https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/description/ (IMP++)
+https://leetcode.com/problems/best-team-with-no-conflicts/ (IMP)
+https://leetcode.com/problems/profitable-schemes/description/
+
+
+2. Rotation wise Knapsack -> min/max ((0 -> n-2) , (1 -> n-1))
+
+https://leetcode.com/problems/house-robber-ii/description/
+https://leetcode.com/problems/pizza-with-3n-slices/description/
+
+3. abs(diff) (2 equal parts) with max
+
+https://leetcode.com/problems/tallest-billboard/description/
