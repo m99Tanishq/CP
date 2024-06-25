@@ -1,0 +1,53 @@
+1. 2-3-4-5 Dimenstions
+
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/
+https://leetcode.com/problems/student-attendance-record-ii/description/
+https://leetcode.com/problems/triangle/description/ (IMP++ Triangle Traveral)
+https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/ 
+https://leetcode.com/problems/dice-roll-simulation/description/
+https://leetcode.com/problems/count-vowels-permutation/description/ (Google 3(6months))
+https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/description/
+
+2. Grid 4, 8
+
+https://leetcode.com/problems/out-of-boundary-paths/description/
+https://leetcode.com/problems/knight-probability-in-chessboard/description/ (Probability DP)
+https://leetcode.com/problems/champagne-tower/description/ (Probability + Triangle Traversal)
+https://leetcode.com/problems/minimum-falling-path-sum/description/
+https://leetcode.com/problems/minimum-falling-path-sum-ii/description/
+
+3. DP Subarray
+
+https://leetcode.com/problems/largest-sum-of-averages/description/
+https://codeforces.com/contest/1077/problem/F1 (1900)
+https://leetcode.com/problems/split-array-largest-sum/description/(IMP++)
+https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/description/
+
+4. DP abs(diff)
+
+https://leetcode.com/problems/longest-arithmetic-subsequence/description/ (Knapsack)
+
+5. DP Binary Search
+
+https://leetcode.com/problems/frog-jump/description/
+
+6. ClockWise And AntiClockWise Concept
+
+https://leetcode.com/problems/freedom-trail/description/
+
+7. Constrain > DP-Limit -> Convert Que to Given Contrains And Find Answers(IMP++)
+
+https://leetcode.com/problems/minimum-number-of-refueling-stops/description/
+
+8. Tricky
+
+https://leetcode.com/problems/number-of-music-playlists/description/
+https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/description/ (4-State)
+https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/description/
+https://leetcode.com/problems/paint-house-iii/description/
+https://leetcode.com/problems/count-all-possible-routes/description/
+
+9. Prefix sum + Grid
+
+https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/description/

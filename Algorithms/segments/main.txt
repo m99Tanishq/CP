@@ -1,4 +1,5 @@
 Here We Are Given A Nx2 Vector and then We are Given Condtions to full Fill in order to complete the task.
+We Can Even Solve DP-Knapsack Problems With this in O(N)
 
 Common O(N) Algorithms Generally Used 
 
@@ -40,4 +41,5 @@ while(e < n){
             
         }
 Questions ->
-
+https://leetcode.com/problems/video-stitching/solutions/
+https://leetcode.com/problems/minimum-number-of-refueling-stops/description/(Priority-Queue (Depends on Que Conditions))

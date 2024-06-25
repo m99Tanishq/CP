@@ -19,3 +19,6 @@ https://leetcode.com/problems/pizza-with-3n-slices/description/
 3. abs(diff) (2 equal parts) with max
 
 https://leetcode.com/problems/tallest-billboard/description/
+
+4. Segments Trick + Knapsack (IMP++)
+https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/

@@ -63,3 +63,7 @@ if(! == !) ans += (value)
 https://leetcode.com/problems/minimum-cost-to-merge-stones/description/
 https://leetcode.com/problems/stone-game-v/description/
 https://leetcode.com/problems/allocate-mailboxes/description -> presum(**Median Trick)
+
+8. Game Theory with Front Partiation
+
+https://leetcode.com/problems/stone-game-ii/description/
