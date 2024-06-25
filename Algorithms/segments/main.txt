@@ -1,0 +1,43 @@
+Here We Are Given A Nx2 Vector and then We are Given Condtions to full Fill in order to complete the task.
+
+Common O(N) Algorithms Generally Used 
+
+https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/
+Expedia 3
+Veritas 2
+Twitter 12
+Amazon 6
+Salesforce 5
+Facebook 3
+Docusign 3
+Microsoft 3
+TuSimple 3
+Lyft 2
+Goldman Sachs 2
+Oracle 2
+BNY Mellon 2
+Expedia 4
+Microsoft 2
+
+Sorting May be Required!
+
+If we Reach The Destination Break the loop
+Else we have a break condition 2 inside the loop
+
+while(e < n){
+            while(i <= n and v[i].second <= e){ -> 1st Main Condtion to Eliminate Common Parts
+               i++;
+            }
+            if(v[i].first > e){ -> If 1st Condtion Failed Break.
+                break;
+            }
+            while(i <= n and e >= v[i].first){ -> 2nd Main Condtion to Update the Effect For 1st
+                mx = max(mx, v[i].second);
+                i++;
+            }
+            count++;
+            e = max(e, mx);
+            
+        }
+Questions ->
+
