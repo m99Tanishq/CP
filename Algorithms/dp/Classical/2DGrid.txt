@@ -1,0 +1,24 @@
+Number of Paths
+
+https://leetcode.com/problems/unique-paths/
+https://leetcode.com/problems/unique-paths-ii/
+
+(Pair Concept -> MAX/Count)
+https://leetcode.com/problems/number-of-paths-with-max-score/description/
+
+MIN/MAX Path
+
+https://leetcode.com/problems/minimum-path-sum/description/
+
+(Product Concept)
+https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/description
+
+Decision 
+
+https://leetcode.com/problems/where-will-the-ball-fall/description/
+
+(Tricky!)
+https://leetcode.com/problems/dungeon-game/description/
+https://leetcode.com/problems/cherry-pickup/description/
+
+https://leetcode.com/problems/cherry-pickup-ii/description/

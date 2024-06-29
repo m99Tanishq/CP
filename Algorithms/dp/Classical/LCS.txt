@@ -1,0 +1,35 @@
+SubString
+https://leetcode.com/problems/longest-palindromic-substring/description/
+(Center Expand Algo For Palindrome Check! O(n^2))
+
+Reverse and Check Concept(Palindrome)
+https://leetcode.com/problems/longest-palindromic-subsequence/description/
+https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/
+
+Deafult
+https://leetcode.com/problems/longest-common-subsequence/description/
+
+Straight and Subarray
+
+(Half Knapsack)
+https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/
+
+Pattern Matching (Revesre and Move as per Que Demands)
+
+https://leetcode.com/problems/regular-expression-matching/description/
+https://leetcode.com/problems/wildcard-matching/description/
+https://leetcode.com/problems/edit-distance/description/
+https://leetcode.com/problems/interleaving-string/description/
+
+SCS (LCS + Reverse Approach)
+
+https://leetcode.com/problems/shortest-common-supersequence/description/
+
+Product + Subsequence(IMP++)
+
+(Function call m Negative we can Ignore IMP)
+https://leetcode.com/problems/max-dot-product-of-two-subsequences/description/
+
+
+
+

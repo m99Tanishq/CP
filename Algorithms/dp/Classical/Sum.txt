@@ -1,0 +1,52 @@
+1. Square
+
+1a. (1 in the cell and min from (left, up, leftup))
+https://leetcode.com/problems/maximal-square/description/
+
+1b. (DFS + DP)
+(DFS -> Tracking / DP -> Memo)
+https://leetcode.com/problems/largest-plus-sign/description/
+
+(DFS -> Tracing / DP -> Memo)
+https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/description/
+
+
+2. Prefix Sum 1-D
+
+https://leetcode.com/problems/range-sum-query-immutable/description/
+https://leetcode.com/problems/push-dominoes/description/
+https://leetcode.com/problems/ways-to-make-a-fair-array/description/
+https://leetcode.com/problems/get-the-maximum-score/description/
+
+(Tricky !)
+https://leetcode.com/problems/super-washing-machines/description/
+
+2a. Circular Prefix Sum / Sliding Window
+
+https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/
+
+2b. Prefix Sum + Monotonic Stack
+
+https://leetcode.com/problems/maximal-rectangle/description/
+
+
+3. Prefix Sum 2-D
+
+https://leetcode.com/problems/range-sum-query-2d-immutable/description/
+
+(Tricky)
+https://leetcode.com/problems/matrix-block-sum/description/
+
+3a. Ver + Hor -> matrix
+https://leetcode.com/problems/largest-1-bordered-square/description/
+
+(Tricky!)
+https://leetcode.com/problems/count-submatrices-with-all-ones/description/
+
+4. Rectangle(IMP++)
+
+(All rectangle Sum + condition)
+https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/description/
+https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/description/
+
+

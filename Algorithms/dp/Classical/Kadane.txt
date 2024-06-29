@@ -1,0 +1,21 @@
+Kadane Algo + DP + Subarray
+
+https://leetcode.com/problems/maximum-subarray/
+https://leetcode.com/problems/maximum-product-subarray/
+(Product -> MIN and MAX BOTH -> Reverse As Per Sign And if Zero Set again to One)
+
+Straigth DP
+
+https://leetcode.com/problems/longest-turbulent-subarray/description/
+
+(OR Concetps with Subarray(IMP) -> No of One)
+https://leetcode.com/problems/bitwise-ors-of-subarrays/description/
+https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/description/
+https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/
+
+(divisiblity Concept)
+https://leetcode.com/problems/largest-divisible-subset/description/
+
+Circular Subarray Sum (Concepts)
+
+https://leetcode.com/problems/k-concatenation-maximum-sum/description/

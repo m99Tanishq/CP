@@ -1,0 +1,22 @@
+1. Deafult
+
+(Binary Seacrh -> nLogn / DP -> n^2)
+https://leetcode.com/problems/longest-increasing-subsequence/ (1-D)
+https://leetcode.com/problems/russian-doll-envelopes/ (2-D)
+https://leetcode.com/problems/maximum-height-by-stacking-cuboids/ (3-D)
+
+2. Number of LIS
+
+2.a Pair -> Concepts (length, count)
+https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/
+
+3. Tricky + LIS
+
+https://leetcode.com/problems/delete-columns-to-make-sorted-iii/description/
+https://leetcode.com/problems/make-array-strictly-increasing/description/
+
+
+4. LIS (0 > n-1 and n-1 -> 0) (Peak and Valley array)
+
+https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/description/
+

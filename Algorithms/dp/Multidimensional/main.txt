@@ -8,6 +8,7 @@ https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/
 https://leetcode.com/problems/dice-roll-simulation/description/
 https://leetcode.com/problems/count-vowels-permutation/description/ (Google 3(6months))
 https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/description/
+https://codeforces.com/contest/118/problem/D (1700)
 
 2. Grid 4, 8
 
