@@ -1,0 +1,35 @@
+1. Palindrome
+
+(Front Partition)
+https://leetcode.com/problems/palindrome-partitioning/description/
+https://leetcode.com/problems/palindrome-partitioning-ii/description/
+https://leetcode.com/problems/palindrome-partitioning-iii/description/
+
+Two Pointer(Intutive)
+https://leetcode.com/problems/longest-chunked-palindrome-decomposition/description/
+
+2. Backtracking
+
+https://leetcode.com/problems/word-break/
+https://leetcode.com/problems/word-break-ii/description/
+
+3. Cummulative
+
+https://leetcode.com/problems/unique-substrings-in-wraparound-string/
+
+
+4. Min/Max
+
+https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/
+
+5. Subsequence
+
+https://leetcode.com/problems/longest-string-chain/description/
+https://leetcode.com/problems/distinct-subsequences/description/
+https://leetcode.com/problems/distinct-subsequences-ii/description/
+https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/
+
+6. Tricky With Interval DP Techniques
+
+https://leetcode.com/problems/concatenated-words/description/
+https://leetcode.com/problems/count-different-palindromic-subsequences/description/
