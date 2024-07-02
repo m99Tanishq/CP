@@ -1,0 +1,59 @@
+// Initially L <= R -> L = M + 1 and R = M - 1
+
+Directly Apply when need to find Element in an array...
+
+L                                          R
+v                                          v
+[      inLeft      ] [       !inLeft       ]
+
+// Finally
+                   R L
+                   v v
+[      inLeft      ] [       !inLeft       ]
+
+https://leetcode.com/problems/kth-missing-positive-number/
+https://leetcode.com/problems/h-index-ii/
+
+
+# Comparisons between L <= R and L < R
+
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
+1. Solution 1. Binary Search (L <= R)
+
+Pro:
+
+M is always (L + R) / 2
+
+Symmetrical and no-brainer: L = M + 1 and R = M - 1.
+
+Con:
+
+L and R might go out of boundary in the end.
+Solution: Simply do an out-of-boundary check.
+
+Need to think about using L or R in the end.
+Solution: Take the first binary search for example, if A[M] < target, we move L. If A[M] >= target, we move R. In the end, L and R will swap order, so R will point to the last A[i] < target, and L will point to the first A[i] >= target. Thus, we should use L as the left boundary.
+
+2. Solution 2. Binary Search (L < R)
+
+Pro:
+
+In the end, L and R points to the same position.
+
+Con:
+
+Need to think about setting L = M or R = M. Solution: Take the first binary search for example. If A[M] < target, we want to move L to M + 1 because A[M] != target. If A[M] >= target, we want to move R to M. Since we are using R = M, we need to make sure M != R, thus we should round down M as (L + R) / 2.
+
+Now consider the second binary search. If A[M] > target, we want to move R to M - 1. If A[M] <= target, we want to move L to M. Since we are using L = M, we need to make sure M != R, thus we should round up M as (L + R + 1) / 2.
+
+Overall, if we do L = M, we round up. If we do R = M, we round down.
+
+Round up: (L + R) / 2 or L + (R - L) / 2.
+
+Round down: (L + R + 1) / 2 or R - (R - L) / 2.
+
+2. IMP++ -> Setting high to accurate value ->
+
+l = 0, h = 1;
+if(!check(h)) l = h, h *= 2;
