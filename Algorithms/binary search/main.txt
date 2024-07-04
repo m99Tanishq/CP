@@ -57,3 +57,55 @@ Round down: (L + R + 1) / 2 or R - (R - L) / 2.
 
 l = 0, h = 1;
 if(!check(h)) l = h, h *= 2;
+
+
+3. BS Tricky Que!
+
+https://leetcode.com/problems/kth-missing-positive-number/description/
+https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/description/
+
+4. Problems on arrays that are not sorted or monotonic(Tip Focus on the Sorted Part!)
+Kth Number -> Large then -> BS , small -> PQ
+
+In case of Unique Element -> things are default      
+In case of Dupicates Extra Conditions are there ! -> l m h -> l++, h-- and in case of minimum h--;
+                                                     1 1 1
+
+https://leetcode.com/problems/find-peak-element/description/
+https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
+
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/
+
+IMP++ -> https://leetcode.com/problems/find-k-closest-elements/description/
+3 approaches -> PQ < BS + TP < SW + TP
+
+5. BS on Answers (IMP+++)
+
+https://liuzhenglaichn.gitbook.io/~gitbook/image?url=https%3A%2F%2F851655761-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-M7JACxIEuMBezDCzfss%252Fsync%252Ff7597dc2f9bfb96036f94f72349848fd9a571c0d.png%3Fgeneration%3D1621796049375752%26alt%3Dmedia&width=400&dpr=2&quality=100&sign=932d48e2&sv=1
+
+Pseudo Code
+Assume the answer range is monotonically going from valid to invalid, and we are looking for the maximum valid value.
+
+
+int L = minVal, R = maxVal
+while (L <= R) {
+    int M = (L + R) / 2;
+    if (f_(M)) L = M + 1;
+    else R = M - 1;
+}
+return R >= minVal ? R : NOT_FOUND;
+If we are looking for the minimal invalid value, simply return f_(L) <= maxVal ? L : NOT_FOUND.
+
+https://leetcode.com/problems/split-array-largest-sum/description/ -> CSES (Classical Que)
+https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/description/
+https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/description/
+https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/description/ (Sum Code! n*n+1 / 2 - ...)
+https://leetcode.com/problems/minimum-speed-to-arrive-on-time/description/
+
+(Tricky ! main thing is th function code)
+https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/
+https://leetcode.com/problems/swim-in-rising-water/description/
+https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/description/(New Concept)
+
