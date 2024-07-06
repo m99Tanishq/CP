@@ -1,0 +1,86 @@
+1. Template 1: Shrinkable Sliding Window
+
+int i = 0, j = 0, ans = 0;
+for (; j < N; ++j) {
+    // CODE: use A[j] to update state which might make the window invalid
+    for (; invalid(); ++i) { // when invalid, keep shrinking the left edge until it's valid again
+        // CODE: update state using A[i]
+    }
+    ans = max(ans, j - i + 1); // the window [i, j] is the maximum window we've found thus far
+}
+return ans;
+
+2. Template 2: Non-shrinkable Sliding Window (Need to Be Care Full When Dup;icates Comes)
+Copy
+int i = 0, j = 0;
+for (; j < N; ++j) {
+    // CODE: use A[j] to update state which might make the window invalid
+    if (invalid()) { // Increment the left edge ONLY when the window is invalid. In this way, the window GROWs when it's valid, and SHIFTs when it's invalid
+        // CODE: update state using A[i]
+        ++i;
+    }
+    // after `++j` in the for loop, this window `[i, j)` of length `j - i` MIGHT be valid.
+}
+return j - i; // There must be a maximum window of size `j - i`.
+
+3 . Exactly k times = At Most k times - At Most k - 1 times.
+
+Count Subarrays -> Code!
+
+https://leetcode.com/problems/binary-subarrays-with-sum/description/
+https://leetcode.com/problems/subarrays-with-k-different-integers/description/
+https://leetcode.com/problems/count-number-of-nice-subarrays/description/
+https://leetcode.com/problems/count-vowel-substrings-of-a-string/description/
+
+
+4. Find Minimum Window
+
+int i = 0;
+for (int j = 0; j < N; ++j) {
+    // use A[j] to update state.
+    while (valid()) {
+        ans = min(ans, j - i + 1);
+        // use A[i] to update state
+        ++i;
+    }
+}
+
+https://leetcode.com/problems/minimum-window-substring/description/
+https://leetcode.com/problems/minimum-size-subarray-sum/description/
+
+5. Find Maximum
+
+https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+https://leetcode.com/problems/longest-repeating-character-replacement/description/
+https://leetcode.com/problems/subarray-product-less-than-k/description/
+https://leetcode.com/problems/max-consecutive-ones-iii/description/
+https://leetcode.com/problems/get-equal-substrings-within-budget/description/
+https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/
+
+Left-Right Trick -> Sum - x -> find Reverse asked in the que!
+
+https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/
+
+https://leetcode.com/problems/maximum-erasure-value/description/
+https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
+
+Tricky!
+
+https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/description/
+https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/description/
+
+https://leetcode.com/problems/maximize-the-confusion-of-an-exam/description/
+
+6. Fixed-length Sliding Window
+
+https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
+https://leetcode.com/problems/permutation-in-string/description/
+
+Tricky!
+https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/description/
+
+Substring Rotation Trick 2*size travesal!
+
+https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/description/
+
+https://leetcode.com/problems/k-radius-subarray-averages/description/
