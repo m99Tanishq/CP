@@ -1,0 +1,89 @@
+1. Running from both ends of an array
+
+Standared
+(*) https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+https://leetcode.com/problems/3sum/
+https://leetcode.com/problems/4sum/
+
+Adding Subsequence Trick (power)
+https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/description/
+
+Square Trick
+https://leetcode.com/problems/sum-of-square-numbers/description/
+
+Trapping Water(IMP)
+https://leetcode.com/problems/trapping-rain-water/description/
+https://leetcode.com/problems/container-with-most-water/description/
+
+Next Permutation (Finding Next Permutation Concept)
+https://leetcode.com/problems/next-permutation/description/
+https://leetcode.com/problems/next-greater-element-iii/description/
+https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/description/
+
+Reversing / Swapping
+Dutch National Flag Algo -> https://leetcode.com/problems/sort-colors/description/
+https://leetcode.com/problems/squares-of-a-sorted-array/ (O(n))
+https://leetcode.com/problems/sort-array-by-parity/
+https://leetcode.com/problems/sort-array-by-parity-ii/
+https://leetcode.com/problems/pancake-sorting/description/ (Tricky)
+https://leetcode.com/problems/reverse-words-in-a-string/description/
+
+Others
+https://leetcode.com/problems/di-string-match/description/
+Continous Removal Concept
+https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/description/
+https://leetcode.com/problems/shortest-distance-to-a-character/description/
+
+2.Slow & Fast Pointers
+
+Cyclic Detection
+slow -> 1, fast -> 2
+https://leetcode.com/problems/circular-array-loop/description/
+
+Sliding Window/Caterpillar Method
+(Tricky! Nice Concept)
+https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/
+https://leetcode.com/problems/k-diff-pairs-in-an-array/description/
+
+Rotation
+https://leetcode.com/problems/rotate-array/
+
+String
+Reverse for Largest!
+https://leetcode.com/problems/last-substring-in-lexicographical-order/description/
+
+Remove Duplicate
+Tricky !
+https://leetcode.com/problems/duplicate-zeros/description/
+
+Others
+https://leetcode.com/problems/partition-labels/description/
+Range with Binary search
+https://leetcode.com/problems/friends-of-appropriate-ages/description/
+Mountain Array 
+https://leetcode.com/problems/longest-mountain-in-array/description/ (DP)
+https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/description/
+
+3.Running from beginning of 2 arrays / Merging 2 arrays
+
+Stadered !
+https://leetcode.com/problems/merge-sorted-array/description/
+
+BS + Segments
+https://leetcode.com/problems/heaters/description/
+
+SubString
+cmp -> (for size and lexo both)
+https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/
+https://leetcode.com/problems/longest-uncommon-subsequence-ii/description/
+
+
+Median Finder
+(*) https://leetcode.com/problems/find-median-from-data-stream/
+
+Others
+https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/
+Implementation
+https://leetcode.com/problems/swap-adjacent-in-lr-string/description/
+BS on Vector<Pair>
+https://leetcode.com/problems/most-profit-assigning-work/description/
