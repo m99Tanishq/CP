@@ -1,0 +1,6 @@
+Meet-in-the-middle / Binary Search
+
+divide in two and subset then merge both acc to contion by apply BS on one of the Sorted Array!
+
+(*) https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/
+https://leetcode.com/problems/closest-subsequence-sum/
